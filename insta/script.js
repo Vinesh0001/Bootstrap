@@ -11,15 +11,17 @@
 //     });
 // }
 
+// var btn = 
 
 // Function to toggle the follow button text
 function toggleFollow(button) {
-  if (button.textContent === "Follow") {
+  if (button.textContent.trim() === "Follow") {
     button.textContent = "Following";
-  } else if (button.textContent === "Following") {
+  } else if (button.textContent.trim() === "Following") {
     button.textContent = "Follow";
   }
 }
+
 
 // Get all elements with class "follow"
 const followButtons = document.querySelectorAll(".follow");
