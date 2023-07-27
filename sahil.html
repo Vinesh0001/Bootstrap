@@ -1,80 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="sahil.css">
-    <title>
-        <img src="in.png" alt="in" class="titlelogo">
-        Instagram
-    </title>
-
 </head>
-
-
 <body>
     <div id="header"></div>
+
     <div class="container">
 
-        <div class="profile">
-
-            <div class="profileup">
-
-            <div class="pfp">
+        <!-- <div class="navigation">
             
-                <img src="sahil.jpg" alt="pfp" class="">
+            <div class="instagram">
+                <img src="Images/" alt="">
             </div>
 
-            <div class="pfpspace">
+            <div class="navs">
+
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Home</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Search</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Explore</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Reels</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Messages</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Notifications</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Create</span>
+                </div>
+                <div class="nav">
+                    <img src="" alt="">
+                    <span>Profile</span>
+                </div>
+
             </div>
 
-            <div class="profileright">
+            <div class="more">
 
-            <div class="name">
-                <h1><span>sahilkuware14</span></h1>
-                <button class="edit">Edit profile</button>
-                <button class="settings"><img src="in.png" alt="Settings"></button>
-            </div>
-
-            <div class="stats">
-                <ul class="list">
-                    <li><span >4</span> posts</li>
-                    <li><span >341</span> followers</li>
-                    <li><span >571</span> following</li>
-                </ul>
-            </div>
-
-            <div class="profilebio">
-
-                <p><span class="profilename"><b>SAHIL KUWARE</b></span><br>I Have No Enimies</p>
+                <img src="Images\morenav.png" alt="">
 
             </div>
 
-            </div>
 
-            </div>
+        </div> -->
 
+        <div class="blackline">
 
         </div>
-        <!--Profile-->
+
+        <div class="main">
+
+            <div class="upper">
+
+                <div class="profile">
+
+                    <div class="pfp">
+
+                        <div class="pfpbox">
+                            <img src="Images\sahil.jpg" alt="pfp">
+                        </div>
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="upperpro">
+
+                            <div class="uname">
+                                <div>
+                                    <span>sahilkuware14</span>
+                                </div>
+                                <div>
+                                    <button class="rounded-button">Edit profile</button>
+                                </div>
+                                <div>
+                                    <button class="rounded-button">View Archive</button>
+                                </div>
+                                <div id="setting">
+                                    <a href="">
+                                        <img src="Images\settings.png" alt="setting">
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="stats">
+                                
+                                <div class="stat">
+                                    <span><span class="no">4</span> posts</span>
+                                </div>
+                                <div class="stat">
+                                    <span><span class="no">342</span> followers</span>
+                                </div>
+                                <div class="stat">
+                                    <span><span class="no">572</span> following</span>
+                                </div>
+    
+                            </div>
+
+                        </div>
+
+                        <div class="lowerpro">
+                            <div class="name">
+                                <p>SAHIL KUWARE</p>
+                            </div>
+                            <div class="bio">
+                                <p>if you care you lost.......</p>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="highlight">
+                    <div class="stories-container">
+                        <div class="story">
+                            <img src="Images\sahil.jpg" alt="User 1">
+                            <span class="username">User 1</span>
+                        </div>
+                        <div class="story">
+                            <img src="Images\sahil.jpg" alt="User 2">
+                            <span class="username">User 2</span>
+                        </div>
+                        <div class="story">
+                            <img src="Images\sahil.jpg" alt="new">
+                            <span class="username">New</span>
+                        </div>
+                    </div>
+
+            </div>
+            </div>
+
+            <div class="black" id="linehai">
+                <div class="black1" ></div>
+            </div>
+
+            
+
+            <div class="lower">
+
+                <div class="types">
+
+                    <div onclick="showline('photu')" onclick="showContent('photu')" id="uwu1" class="postlogo">
+                        <img src="" alt="">
+                        <p> POSTS</p>
+                    </div>
+                    <div onclick="showline('reels')" onclick="showContent('reels')" id="uwu2" class="postlogo">
+                        <img src="Images\reels.png" alt="">
+                        <p> REELS</p>
+                    </div>
+                    <div onclick="showline('pings')" onclick="showContent('pings')" id="uwu3" class="postlogo">
+                        <img src="" alt="">
+                        <p> TAGGED</p>
+                    </div>
+
+               
+                </div>
+
+                <div class="content" id="content">
+                    <div class="posts">
+                        <div class="post">
+                            <img src="Images/sahil.jpg" alt="">
+                            </></div><div class="post">
+                                <img src="Images/sahil.jpg" alt="">
+                                </></div><div class="post">
+                                <img src="Images/sahil.jpg" alt="">
+                                </></div><div class="post">
+                                <img src="Images/sahil.jpg" alt="">
+                                </></div><div class="post">
+                                <img src="Images/sahil.jpg" alt="">
+                                </></div></>
+                    </div>
+                </div>
 
 
-        <div class="posts">
 
-            <div>
-                <ul class="list">
-                    <li> posts</li>
-                    <li> followers</li>
-                    <li> following</li>
-                </ul>
             </div>
 
         </div>
 
     </div>
-
+    
 </body>
-
 </html>
+
+
+
+<!--
+     <div class="posts">
+                    
+                    <div class="post" >
+                        <img src="Images\sahil.jpg" alt="">
+                    </div>
+                    <div class="post">
+                        <img src="Images\sahil.jpg" alt="">
+                    </div>
+                    <div class="post">
+                        <img src="Images\sahil.jpg" alt="">
+                    </div>
+                    <div class="post">
+                        <img src="Images\sahil.jpg" alt="">
+                    </div>
+                    <div class="post">
+                        <img src="Images\sahil.jpg" alt="">
+                    </div>
+
+                </div>
+
+                 <div class="reels">
+
+                    <div class="reel">
+                        <video src="Images\2.mp4"></video>
+                        <img src="Images\playsw.png" alt="">
+                        <span>40.14 K</span>
+                    </div>
+
+                </div>
+
+
+
+-->
