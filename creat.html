@@ -3,7 +3,8 @@
 <head>
 	<title>search</title>
   <link rel="stylesheet" type="text/css" href="creat.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
   <script>
 		function newTabImage() {
 			var image = new Image();
@@ -17,9 +18,10 @@
 
 </head>
 <body>
+  <div id="header"></div>
 
-        <input id="searchbar" onkeyup="search()" type="text"
-        name="search" placeholder="Search ...">
+        <!-- <input id="searchbar" onkeyup="search()" type="text"
+        name="search" placeholder="Search ..."> -->
 	<ul>
   <li>
     <img id ="idimage" src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05459_ziuomy.jpg" alt="Trees lit by green light during dusk" loading="lazy" onclick="newTabImage()">

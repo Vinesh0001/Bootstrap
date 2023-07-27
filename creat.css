@@ -1,10 +1,12 @@
 
 
 *{
+
   border-style: line;
   border-color: black;
 }
 body{
+  margin-top: 60px;
   overflow-x: hidden;
 }
 .close:hover,
@@ -19,14 +21,14 @@ ul { list-style-type: none; }
 	padding:20px;
 	border-radius: 10px;
 }
-input[type=text] {
+/* input[type=text] {
 	width: 70%;
 	-webkit-transition: width 0.15s ease-in-out;
 	transition: width 15s ease-in-out;
 }
 input[type=text]:focus {
 	width: 70%;
-}
+} */
 ul {
   display: flex;
   flex-wrap: wrap;

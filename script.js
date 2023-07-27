@@ -1,3 +1,9 @@
+$(function(){
+  $("#header").load("header.html");
+});
+
+
+
 // follow or following
 // function toggleFollow() {
 //     const followButtons = document.getElementsByClassName("follow");
@@ -31,10 +37,6 @@ followButtons.forEach(button => {
     toggleFollow(this); // Pass the clicked button to the toggleFollow function
   });
 });
-
-
-
-
 
 
 
