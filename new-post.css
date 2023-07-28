@@ -1,102 +1,52 @@
-/* Your custom styles to replicate Instagram's look and feel */
-/* Note: This is just a basic example and may not be an exact replica of Instagram's styles */
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
+  margin-top: 80px;
+  padding: 0;
+  background-color: #f5f5f5;
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
-}
-
-.create-post-button {
-  padding: 0;
-  font-size: 40px;
-  line-height: 1;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 60px;
-  height: 60px;
-  transition: background-color 0.3s ease;
-}
-
-.create-post-button:hover {
-  background-color: #0056b3;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.modal-content {
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
   max-width: 400px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  color: #333;
-}
-
-.modal-title {
-  font-size: 20px;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .image-upload-container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .image-upload-icon {
-  width: 40px;
-  height: 40px;
-  background-color: #007bff;
+  width: 64px;
+  height: 64px;
+  background-color: #f1f1f1;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 10px;
+  margin-bottom: 10px;
 }
 
 .image-upload-icon img {
-  width: 20px;
-  height: 20px;
-  fill: #fff;
+  width: 40px;
+  height: 40px;
 }
 
 .image-upload-text {
-  color: #007bff;
-}
-
-.image-upload-text:hover {
-  text-decoration: underline;
+  font-size: 14px;
+  color: #777;
+  cursor: pointer;
 }
 
 #fileInput {
@@ -104,48 +54,53 @@ body {
 }
 
 .image-preview-container {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 8px;
+  max-width: 100%;
   margin-bottom: 20px;
 }
 
 #previewImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
-.crop-button, .filter-button, .post-button {
-  margin: 5px;
+.crop-button,
+.filter-button,
+.post-button {
+  font-size: 16px;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  margin: 5px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 14px;
+  background-color: #3897f0;
+  color: #fff;
 }
 
-.crop-button:disabled, .filter-button:disabled, .post-button:disabled {
+.crop-button:hover,
+.filter-button:hover,
+.post-button:hover {
+  background-color: #3367d6;
+}
+
+.crop-button:disabled,
+.filter-button:disabled,
+.post-button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-.caption-input, .hashtags-input {
+.caption-input,
+.hashtags-input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 14px;
-  box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
 
-/* Ensure the modal does not go out of the screen */
-@media (max-width: 500px) {
-  .modal-content {
-    width: 90%;
-  }
+.hashtags-input {
+  margin-bottom: 20px;
 }
+
