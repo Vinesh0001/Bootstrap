@@ -1,4 +1,5 @@
 $(function(){
+  $("#importBootstrap").load("importBootstrap.html");
   $("#header").load("header.html");
 });
 

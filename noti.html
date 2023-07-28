@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <title>Instagram Notifications</title>
+  <link rel="stylesheet" href="noti.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+  <div class="container">
+    <h1>Notifications</h1>
+    <div class="notification-list" id="notificationList">
+    </div>
+  </div>
+</body>
+<script>
+    
+//for noti
+const notifications = [
+  {
+    id: 1,
+    avatar: "img/profile2.jpg",
+    username: "user1",
+    message: "Liked your photo",
+    timestamp: "5 minutes ago",
+    unread: true,
+  },
+  {
+    id: 2,
+    avatar: "img/profile1.jpg",
+    username: "Romisa",
+    message: "Commented on your post",
+    timestamp: "10 minutes ago",
+    unread: false,
+  },
+  {
+    id: 3,
+    avatar: "img/profile3.jpg",
+    username: "user2",
+    message: "Commented on your post you are tagged in",
+    timestamp: "10 minutes ago",
+    unread: false,
+  },
+  {
+    id: 4,
+    avatar: "img/profile6.jpg",
+    username: "user2",
+    message: "Commented on your post",
+    timestamp: "10 minutes ago",
+    unread: false,
+  },
+  {
+    id: 5,
+    avatar: "img/profile5.jpg",
+    username: "user2",
+    message: "Commented on your post",
+    timestamp: "10 minutes ago",
+    unread: false,
+  },
+  // Add more notification objects here...
+];
+
+const notificationList = document.getElementById("notificationList");
+
+function renderNotifications() {
+  notifications.forEach((notification) => {
+    const notificationItem = document.createElement("div");
+    notificationItem.classList.add("notification");
+    if (notification.unread) {
+      notificationItem.classList.add("unread");
+    }
+
+    notificationItem.innerHTML = `
+      <img src="${notification.avatar}" alt="${notification.username}">
+      <div class="content">
+        <span class="message">${notification.username} ${notification.message}</span>
+        <span class="timestamp">${notification.timestamp}</span>
+      </div>
+    `;
+
+    notificationList.appendChild(notificationItem);
+  });
+}
+
+renderNotifications();
+</script>
+</html>
