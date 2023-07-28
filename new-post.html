@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram Create New Post</title>
+  <link rel="stylesheet" href="new-post.css">
+</head>
+<body>
+  <div class="container">
+    <button class="create-post-button" id="openModalButton">+</button>
+  </div>
+
+  <div class="modal" id="postModal">
+    <div class="modal-content">
+      <span class="close-button" id="closeModalButton">&times;</span>
+      <h2 class="modal-title">Create New Post</h2>
+      <div class="image-upload-container">
+        <label for="fileInput">
+          <div class="image-upload-icon">
+            <img src="upload-icon.png" alt="Upload Icon">
+          </div>
+          <div class="image-upload-text">Choose Photo</div>
+        </label>
+        <input type="file" id="fileInput" accept="image/*">
+      </div>
+      <div class="image-preview-container">
+        <img id="previewImg" src="#" alt="Image Preview">
+      </div>
+      <button class="crop-button" id="cropButton" disabled>Crop</button>
+      <button class="filter-button" id="applyFilterButton" disabled>Filter</button>
+      <input type="text" class="caption-input" id="captionInput" placeholder="Write a caption...">
+      <input type="text" class="hashtags-input" id="hashtagsInput" placeholder="Add hashtags...">
+      <button class="post-button" id="postButton"  onclick="location.href='index.html'">Post</button>
+    </div>
+  </div>
+
+  <!-- Include Cropper.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/cropperjs/dist/cropper.min.css">
+
+  <!-- Include Cropper.js JS -->
+  <script src="https://unpkg.com/cropperjs/dist/cropper.min.js"></script>
+
+  <!-- Include CamanJS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.min.js"></script>
+
+  <script src="scr.js"></script>
+</body>
+</html>
