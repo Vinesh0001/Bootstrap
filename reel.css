@@ -31,6 +31,8 @@ body {
 
 .outer {
     display: flex;
+    position: relative;
+    left: -130px;
 }
 
 .c-inner {

@@ -109,13 +109,21 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
-.wrapper{
+
+.wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+
+/* .wrapper{
     width:70%;
     max-width: 1000px;
     display:grid;
     grid-template-columns: 60% 40%;
     grid-gap:30px;
-}
+} */
 .left-col{
     display:flex;
     flex-direction: column;
