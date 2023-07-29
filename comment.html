@@ -7,177 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="comment.css">
+
+
 
   <script src="script.js"></script>
   <title>Comments | Instagram</title>
-  <style>
-    .section>div:nth-child(1) {
-      padding: 2%;
-      display: flex;
-    }
-
-    .section>div:nth-child(1) {
-      padding: 2%;
-
-    }
-
-    .comment-body {
-      padding: 1%;
-      font-size: 1.1rem;
-      margin-left: 3%;
-    }
-
-    .muted {
-      color: gray;
-      font-size: 0.9rem;
-      padding-top: 3%;
-      display: block ruby;
-    }
-
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      object-fit: contain;
-    }
-
-
-    .muted>span {
-      margin-right: 5%;
-    }
-
-    .fa-ellipsis {
-      float: right;
-      cursor: pointer;
-      font-size: larger;
-      text-align: end;
-    }
-
-    .fa-heart {
-      cursor: pointer;
-    }
-
-
-    /* body{ 
-            height: 100%; 
-            width:45%; 
-            margin-top: 50px; 
-            margin-left: 800px; 
-            border: 2px solid black; 
-        } 
- 
-        .img{ 
-            width:3%; 
-            float: left; 
-        } 
- 
-        .section{ 
-            background-color: white; 
-            border-bottom: 1px solid rgb(206, 206, 206); 
- 
-        } 
- 
-        .section > div:nth-child(1){ 
-            padding: 2%; 
-            display:flex ; 
-        } 
- 
-        .comment-body{ 
-            padding: 1%; 
-            margin-left:5%; 
-            font-size: 1.1rem; 
-        } 
- 
-        .muted{ 
-            color: gray; 
-            font-size: 0.9rem; 
-            padding-top: 3%; 
-            display: block ruby; 
-        } 
- 
-        .muted > span{ 
-            margin-right: 5%; 
-        } */
-
-    body {
-      display: flex;
-      margin: 4%;
-      flex-wrap: wrap;
-    }
-
-    .section {
-      padding: 2%;
-      display: flex;
-      border-bottom: 1px solid gray;
-    }
-
-    .section>div {
-      display: flex;
-      align-items: center;
-      width: 100%;
-    }
-
-    .section>div .img {
-      width: 50px;
-      margin-right: 10px;
-    }
-
-    .comment-body {
-      flex: 1;
-      padding: 1%;
-      font-size: 1.1rem;
-      margin-left: 3%;
-    }
-
-    .muted {
-      color: gray;
-      font-size: 0.9rem;
-      padding-top: 3%;
-    }
-
-    .muted>span {
-      margin-right: 5%;
-    }
-
-    .dots {
-      margin-left: auto;
-    }
-
-    .dots i {
-      font-size: large;
-      color: grey;
-    }
-
-    /* asmita */
-    .save {
-      position: absolute;
-      right: 55px;
-    }
-
-    .like.active {
-      content: url("./img/red.png");
-    }
-
-    .save.active {
-      content: url("./img/save-fill.png");
-    }
-
-    /* asmita ends */
-    
-    /* Media query for responsiveness */
-    @media (max-width: 768px) {
-      .section>div {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .section>div .img {
-        margin-right: 0;
-        margin-bottom: 10px;
-      }
-    }
-  </style>
 </head>
 <div id="header"></div>
 
@@ -187,12 +23,12 @@
     <img src="./img/post1.jpg" class="center" height="650px" width="100%" alt="">
   </div>
 
-  <div class="comment" style="width: 50%; height: 650px;">
+  <div class="comment" style="width: 40%; height: 650px;">
     <div class="section">
       <div>
         <div class="img">
           <!-- profile 1  -->
-          <img src="/insta/img/assets/profile.png" alt="">
+          <img src="img/assets/profile.png" alt="">
         </div>
         <div class="comment-body">
           <span class="name" style="font-weight: bold;">tseries.official</span>
@@ -209,7 +45,7 @@
     <div class="section">
       <div>
         <div class="img">
-          <img src="/insta/img/assets/profile.png" alt="">
+          <img src="img/assets/profile.png" alt="">
         </div>
         <div class="comment-body">
           <span class="name" style="font-weight:bold;">mr.sum</span>
@@ -229,7 +65,7 @@
     <div class="section">
       <div>
         <div class="img">
-          <img src="/insta/img/assets/profile.png" alt="">
+          <img src="img/assets/profile.png" alt="">
         </div>
         <div class="comment-body">
           <span class="name" style="font-weight: bold;">mr.sum</span>
@@ -268,12 +104,11 @@
       </div>
     </div>
 
-
     <div class="textbox" style="display: flex; border-top: 1px solid gray; margin-top: 95px; ">
       <i class="fa-regular fa-face-smile" style="padding-top: 2.7%; margin-left: 2%; 
             font-size: large;"></i>
       <form action="" style="padding-bottom: 0; margin-left: 1%;">
-        <input type="text" placeholder="Add a comment.." style="width: 610px; border: 0; height: 50px;">
+        <input type="text" placeholder="Add a comment.." style=" width: 500px; border: 0; height: 50px;">
         <button style="border: 0; background-color: white; color: blue; height: 50px; font-size:large;">Post</button>
       </form>
 

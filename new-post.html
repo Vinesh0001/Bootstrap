@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram Create New Post</title>
+  <link rel="stylesheet" href="new-post.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <h2 class="page-title">Create New Post</h2>
+    <div class="image-upload-container">
+      <label for="fileInput">
+        <div class="image-upload-icon">
+          <img src="./img/avatar.png" alt="Upload Icon">
+        </div>
+        <div class="image-upload-text">Choose Photo</div>
+      </label>
+      <input type="file" id="fileInput" accept="image/*">
+    </div>
+    <div class="image-preview-container">
+      <img id="previewImg" src="./img/drag_drop.png" alt="Image Preview">
+    </div>
+    <button class="crop-button" id="cropButton" disabled>Crop</button>
+    <button class="filter-button" id="applyFilterButton" disabled>Filter</button>
+    <input type="text" class="caption-input" id="captionInput" placeholder="Write a caption...">
+    <input type="text" class="hashtags-input" id="hashtagsInput" placeholder="Add hashtags...">
+    <button class="post-button" id="postButton">Post</button>
+  </div>
+</body>
+</html>
