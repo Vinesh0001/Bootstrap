@@ -18,7 +18,7 @@
 .profile{
   display: grid;
   
-  grid-template-columns: 3fr 5fr;
+  grid-template-columns: 210px 5fr;
 }
 
 .profilekaleft{
@@ -41,6 +41,7 @@
 .profilekaright{
   display: grid;
   grid-template-rows: 60px 50px 50px;
+  justify-items: flex-start;
 }
 
 .naavgaav{
@@ -107,6 +108,23 @@
   justify-items: center;
   align-items: center;
   font-weight: 150;
+}
+
+.naamaurruchi{
+  padding-left: 12px;
+}
+
+.name{
+  margin: 10px 0px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.bio{
+  font-weight: 200;
+  margin: 0%;
+  padding-left: 2px;
+
 }
 
 .stories-container {
