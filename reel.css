@@ -1,0 +1,130 @@
+
+.like.active {
+    /* Add the style for the red like, for example: */
+    content: url("./img/red.png");
+}
+.save.active {
+    /* Add the style for the red like, for example: */
+    content: url("./img/save-fill.png");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0.5% 10%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    padding: 2%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    display: flex;
+    position: relative;
+    left: -130px;
+}
+
+.c-inner {
+    position: relative;
+    width: 332px;
+    height: 550px;
+    overflow: hidden;
+    margin: 2.5%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;   
+    margin: 10px;
+    margin-top: 227px;
+}
+
+.light-bg {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light-bg:hover{
+       opacity: 0.44;
+}
+
+.cap {
+    position: absolute;
+    width: 312px;
+    bottom: 0;
+    padding: 1rem;
+    color: #fff;
+    text-align: left;
+}
+
+.profile-img {
+    display: inline;
+    margin: 2px;
+    border-radius: 100px;
+}
+
+.prof {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.follow{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: inherit;
+    font-weight: bolder;
+  }
+
+.music {
+    display: inline;
+    margin: 5px;
+}
+
+.song{
+    border-radius: 5px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.popup{
+    visibility: hidden;
+}
+
+/* Hide default video controls */
+.autoplay {
+    pointer-events: none;
+  }
+  
+  
+
+.red {
+    background: rgb(255, 80, 80);
+}
+
+.blue {
+    background: blue;
+}
+
