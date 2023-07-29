@@ -8,7 +8,6 @@
     content: url("./img/save-fill.png");
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +31,8 @@ body {
 
 .outer {
     display: flex;
+    position: relative;
+    left: -130px;
 }
 
 .c-inner {
