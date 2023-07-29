@@ -32,12 +32,12 @@ body {
 .outer {
     display: flex;
     position: relative;
-    left: -130px;
+    left: -61px;
 }
 
 .c-inner {
     position: relative;
-    width: 332px;
+    width: 330px;
     height: 550px;
     overflow: hidden;
     margin: 2.5%;
