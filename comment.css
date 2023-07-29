@@ -16,6 +16,10 @@
      content: url("./img/save-fill.png");
  }
 
+ .prof{
+    height: 17px;
+    width: 17px;
+ }
  /* asmi end  */
 
  .section>div:nth-child(1) {

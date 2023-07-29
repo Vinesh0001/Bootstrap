@@ -1,10 +1,8 @@
 /* asmita */
 .like.active {
-    /* Add the style for the red like, for example: */
     content: url("./img/red.png");
 }
 .save.active {
-    /* Add the style for the red like, for example: */
     content: url("./img/save-fill.png");
 }
 
@@ -27,7 +25,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    max-width: 90vw;
+    /* max-width: 90vw; */
     
 }
 *:focus{
