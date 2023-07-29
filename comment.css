@@ -4,8 +4,8 @@
  }
 
  .save {
-     position: absolute;
-     right: 55px;
+    display: flex;
+    position: relative; 
  }
 
  .like.active {

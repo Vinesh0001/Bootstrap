@@ -15,12 +15,7 @@
 .img:hover, .light-bg:hover{
     opacity: 0.44;
 }
-
-.navbar{
-    z-index: 9999;
-}
-/* vin end */
-/* asmi ends */
+/* bdf */
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400;1,500;1,800;1,900&display=swap');
 *{
@@ -109,21 +104,13 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
-
-.wrapper {
-    width: 70%;
-    max-width: 1000px;
-    margin: 50px auto;
-}
-
-
-/* .wrapper{
+.wrapper{
     width:70%;
     max-width: 1000px;
     display:grid;
     grid-template-columns: 60% 40%;
     grid-gap:30px;
-} */
+}
 .left-col{
     display:flex;
     flex-direction: column;
