@@ -8,6 +8,10 @@ body {
     background-color: #f5f5f5;
   }
   
+  
+.like.active {
+  content: url("./img/red.png");
+}
   .story {
     display: flex;
     flex-direction: column;
