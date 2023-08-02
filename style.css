@@ -1,4 +1,4 @@
-/* asmita */
+/* aaa */
 .like.active {
     content: url("./img/red.png");
 }
@@ -18,7 +18,7 @@
     z-index: 9999;
 }
 
-/* Asmiii ends */
+/*  ends */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400;1,500;1,800;1,900&display=swap');
@@ -26,7 +26,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /* max-width: 90vw; */
     
 }
 *:focus{
@@ -51,7 +50,6 @@ body{
     padding: 5px 0;
     cursor: pointer;
 }
-
 
 .nav-wrapper{
     width:70%;
@@ -387,15 +385,6 @@ body{
     top:26px;
     right:18px;
 }
-
- 
-
-
-
-
-
-
-
 
 @media(max-width:1100px){
     .right-col,.search-box{

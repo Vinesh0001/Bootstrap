@@ -44,7 +44,6 @@ body {
     border-radius: 4px;
     margin-right: 10px;
     font-size: 14px;
-    /* Adjust the z-index to make the input box appear below the icons */
     z-index: 1;
   }
   
@@ -53,7 +52,6 @@ body {
     height: 24px;
     cursor: pointer;
     margin-left: 10px;
-    /* Adjust the z-index to ensure the icons appear above the input box */
     z-index: 2;
   }
   
