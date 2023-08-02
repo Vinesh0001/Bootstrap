@@ -1,11 +1,11 @@
- /* asmita  */
+ /* aaaa  */
  .prof {
      border-radius: 100px;
  }
 
  .save {
-    display: flex;
-    position: relative; 
+     display: flex;
+     position: relative;
  }
 
  .like.active {
@@ -16,11 +16,12 @@
      content: url("./img/save-fill.png");
  }
 
- .prof{
-    height: 17px;
-    width: 17px;
+ .prof {
+     height: 17px;
+     width: 17px;
  }
- /* asmi end  */
+
+ /* end  */
 
  .section>div:nth-child(1) {
      padding: 2%;
@@ -67,48 +68,6 @@
  .fa-heart {
      cursor: pointer;
  }
-
-
- /* body{ 
-          height: 100%; 
-          width:45%; 
-          margin-top: 50px; 
-          margin-left: 800px; 
-          border: 2px solid black; 
-      } 
-
-      .img{ 
-          width:3%; 
-          float: left; 
-      } 
-
-      .section{ 
-          background-color: white; 
-          border-bottom: 1px solid rgb(206, 206, 206); 
-
-      } 
-
-      .section > div:nth-child(1){ 
-          padding: 2%; 
-          display:flex ; 
-      } 
-
-      .comment-body{ 
-          padding: 1%; 
-          margin-left:5%; 
-          font-size: 1.1rem; 
-      } 
-
-      .muted{ 
-          color: gray; 
-          font-size: 0.9rem; 
-          padding-top: 3%; 
-          display: block ruby; 
-      } 
-
-      .muted > span{ 
-          margin-right: 5%; 
-      } */
 
  body {
      display: flex;
@@ -158,8 +117,6 @@
      font-size: large;
      color: grey;
  }
-
-
 
  /* Media query for responsiveness */
  @media (max-width: 768px) {

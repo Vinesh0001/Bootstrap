@@ -1,8 +1,7 @@
-/* asmita */
-.light-bg:hover{
+.light-bg:hover {
     opacity: 0.44;
 }
-/* gfj */
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,6 +10,7 @@ body {
 
     padding: 0;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ header {
 }
 
 .search-bar {
-    margin-left: 32px; /* Add margin to create distance between logo and search bar */
+    margin-left: 32px;
 }
 
 .search-bar input {
@@ -35,9 +35,6 @@ header {
     outline: none;
 }
 
-/* Optional: You can add additional styling for the search bar, e.g., placeholder color, focus state, etc. */
-
-
 main {
     flex: 1;
     display: flex;
@@ -46,7 +43,6 @@ main {
 .chat-list {
     width: 300px;
     border-right: 1px solid #ccc;
-    /* Chat list styling */
 }
 
 .chat-list ul {
@@ -60,7 +56,6 @@ main {
     align-items: center;
     padding: 12px;
     border-bottom: 1px solid #ccc;
-    /* Other styling for each chat item */
 }
 
 .chat-list li img {
@@ -87,16 +82,14 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /* Chat window styling */
 }
 
 
 .chat-header {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* To push icons to the right */
+    justify-content: space-between;
     margin-bottom: 20px;
-    /* Other styling for the chat header */
 }
 
 .chat-header img {
@@ -111,21 +104,18 @@ main {
     font-size: 18px;
     display: flex;
     align-items: center;
-    /* Add spacing between the username and the profile picture */
 }
 
 .chat-header h3::before {
     content: '|';
     margin: 0 5px;
     color: #ccc;
-    /* Add a vertical bar separator between the profile picture and username */
 }
 
 .icons img {
     width: 25px;
     height: 25px;
     margin-left: 10px;
-    /* Other styling for the icons */
 }
 
 
@@ -139,7 +129,7 @@ main {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-    clear: both; /* Ensure new line after each message */
+    clear: both;
 }
 
 .message-list li p {
@@ -148,8 +138,8 @@ main {
 
 .sent {
     background-color: #DCF8C6;
-    float: right; /* Shift sent messages to the right */
-    clear: both; /* Clear float for new line */
+    float: right;
+    clear: both;
 }
 
 .received {
@@ -161,7 +151,6 @@ main {
 .message-input-container {
     display: flex;
     align-items: center;
-    /* Other styling for the message input container */
     padding: 10px;
     position: sticky;
     bottom: 0;
@@ -174,7 +163,6 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
-    /* Other styling for the input field */
 }
 
 .message-input-container button {
@@ -185,20 +173,17 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    /* Other styling for the send button */
 }
 
 
 .message-input {
     display: flex;
     align-items: center;
-    /* Other styling for the message input container */
 }
 
 .emoji-icon {
     font-size: 20px;
     margin-right: 10px;
-    /* Other styling for the emoji icon */
 }
 
 .message-input input {
@@ -207,7 +192,6 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
-    /* Other styling for the input field */
 }
 
 .message-input button {
@@ -218,35 +202,27 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    /* Other styling for the send button */
 }
 
 .message-input .icons img {
     width: 25px;
     height: 25px;
     margin-left: 10px;
-    /* Other styling for the icons */
 }
 
 .icons {
     display: flex;
     align-items: center;
-    margin-left: 10px; /* Add some spacing between the input field and icons */
+    margin-left: 10px;
 }
 
 .icons img {
     width: 25px;
     height: 25px;
     margin-left: 10px;
-    /* Other styling for the icons */
 }
-
-
-
-
 
 footer {
     padding: 12px;
     background-color: #f7f7f7;
-    /* Footer styling */
 }
