@@ -39,9 +39,6 @@ cropButton.addEventListener('click', function() {
 
 applyFilterButton.addEventListener('click', function() {
   Caman(previewImg, function () {
-    // Apply filters using CamanJS API
-    // Example: this.brightness(10).contrast(5).vibrance(20).render();
-    // For simplicity, let's apply a basic grayscale filter
     this.greyscale().render();
   });
 });
@@ -55,11 +52,7 @@ postButton.addEventListener('click', function() {
     image: previewImg.src,
     caption: caption,
     hashtags: hashtags,
-    // Add more properties like user information, timestamp, etc. as needed
   };
-
-  // You can save the post object in local storage or perform any other action here
-  // For simplicity, we'll just display an alert with the post details
   alert(`Post Created!\nImage: ${post.image}\nCaption: ${post.caption}\nHashtags: ${post.hashtags.join(', ')}`);
 });
 
