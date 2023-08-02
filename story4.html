@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Home Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="story.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="story">
+        <video width="320" height="240" controls>
+            <source src="./img/video5.mp4"  alt="">
+        </video>
+            <div class="story-wrapper">
+                <div class="nav-wrapper">
+                     <input type="text" class="search-box" placeholder="reply to sheetal"> 
+                <img src="./img/like.png" class="img"  onclick="location.href='#'" alt="">
+                <img src="./img/send.png" class="img" style="display: flex;justify-content: end;margin-left: 220px;" alt="">
+                
+            </div>
+    </div>
+    </div>
+   
+</body>
+<script>
+    var video = document.querySelector("video");
+  video.autoplay = true;
+  video.controls = false;
+</script>
+</html>
